@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>The Maths Quiz Game</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+</head>
+<body class="body_backgorund">
+<h4 id="player1"></h4><span id="score_1player"></span>
+<br> <h4 id="player2"></h4><span id="score_2player"></span>
+<div class="container">
+	<center>
+		<h2 style="color: white;">The Maths Quiz Game</h2>
+        <h3 id="player_ques"></h3>
+		<h3 id="player_ans"></h3>
+		<div id="output" class="col-lg-6"></div>
+		<br>
+		<br>
+        
+		<label style="color: darkmagenta;">Number 1</label>
+        <br>
+        <input type="number" id="number1" class="form-control" placeholder="Enter your desired number">
+		<br>
+        <label style="color: darkmagenta;">Number 2</label>
+        <br>
+        <input type="number" id="number2" class="form-control" placeholder="Enter your desired number">
+        <br> <br>
+        <button type="button" onclick="send()" class="btn btn-warning" style="width: 300px; height: 45px;">Send!</button>
+	</center>
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>

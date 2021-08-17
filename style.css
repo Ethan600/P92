@@ -1,0 +1,41 @@
+.body_backgorund 
+{
+    background-image:url(gqiGH7.jpg);
+    background-position:center;
+    background-size:cover;
+}
+
+.Login_Div{
+    background-image:url(gqiGH7.jpg);
+    padding: 10px;
+    float: none;
+	border-radius: 15px;
+}
+
+h1{
+    color:whitesmoke;
+}
+
+#output{
+    background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+
+#login{
+    background-image: url(gqiGH7.jpg);
+}
+
+h4 {
+    color: gray;
+}
+
+#player1, #player2{
+    color: lightyellow;
+    font-family: 'Amatic SC', cursive;
+    display: inline-block;
+    margin-left: 20px;
+}
